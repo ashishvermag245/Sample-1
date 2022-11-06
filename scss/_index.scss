@@ -1,0 +1,169 @@
+.header{
+    background-color: #bce9e5;
+    display: flex;
+    .container{
+        .navbar{
+            .left-navbar{
+                display: flex;
+                gap: 30px;
+                .nav-logo{
+                    .navbar-brand{
+                        width: 120px;
+                    }
+                }
+                .nav-hover-img{
+                    .img-2{
+                        width: 90px;
+                    }
+                }
+                .navbar-toggler-icon{
+                    color: #0056b3;
+                }
+            }
+            .middle-navbar{
+                justify-content: flex-end;
+                 
+                    ul{
+                        gap: 15px;
+                        li{
+                            list-style: none;
+                            a{
+                                color:#0056b3;
+                                font-weight: bold;
+                                text-decoration: none;
+                                border: 1px solid transparent;
+                                &:hover{
+                                    border-bottom: 3px solid #0056b3;
+                                }
+                            }
+                        }
+                    
+                }
+            }
+        }
+    }
+}
+
+.section2{
+    margin-top: 50px;
+    .box-1{         
+        border-radius: 10px;
+        border: 1px solid white;
+        box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -webkit-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -moz-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        
+        width: 300px;
+        position: relative;
+        height: 162px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        
+        .box-img{
+            width:70px;
+            position: absolute;
+            top: 0;
+            left: 40%;
+            transform: translateY(-35px);
+        }
+        h2{
+            margin-top: 10px;
+        }
+        p{
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: 100;
+        }
+    }
+}
+
+.section3{
+    margin-top:50px;
+    .left-side{
+        border-left: 6px solid #B23CFD;
+        border-radius: 2%;
+        box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -webkit-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -moz-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+
+
+        img{
+            width: 100%;
+        }
+        a{           
+            text-decoration: none;
+            font-size: 20px;
+            color: #B23CFD;
+        }
+      }
+      .right-side{
+        border-left: 6px solid #36b9cc;
+        border-radius: 2%;
+        box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -webkit-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -moz-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        img{
+            width: 100%;
+        }
+        a{
+            color: #36b9cc;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
+}
+
+.section4{    
+    h2{
+        width: 285px;
+        border-radius: 25px;
+        border-bottom: 3px solid #36b9cc;   
+        box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -webkit-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -moz-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);           
+    }
+    .module-1{
+        border-radius: 12px;
+        border-bottom: 4px solid #36b9cc;   
+        box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -webkit-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);
+        -moz-box-shadow: -6px 6px 38px 2px rgba(175, 171, 171, 0.85);   
+        .mod-img{
+            img{
+                width: 100%;                
+            }
+        }
+        .mod-text{
+            flex-direction:column
+        }
+    }
+    .btn{
+        width: 171px;
+    }
+
+}
+
+footer{
+    .row{
+        background-color: #36b9cc;
+        img{
+            vertical-align: middle;
+        }
+        h4{
+            font-size :15px;
+        }
+        a{
+            color: #0056b3;
+        }
+        .row{
+            width: 300px;
+            img{
+                vertical-align: middle;
+            }
+        }
+       
+
+    }
+}

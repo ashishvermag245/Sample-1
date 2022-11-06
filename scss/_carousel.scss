@@ -1,0 +1,14 @@
+.carousel-indicators{
+    display: flex;
+        gap: 30px;
+    .indicator-list{        
+        width: 0.625rem;
+        height: 0.625rem;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .active{
+        background-color: #0056b3;
+    }
+   
+}
